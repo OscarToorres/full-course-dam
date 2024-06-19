@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Ejercicio 2 apartado a)-->
+
+<!DOCTYPE forma_geometrica [
+    <!ELEMENT forma_geometrica (nombre, caracteristicas, numero_de_lados)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT caracteristicas (color, tipo)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT numero_de_lados (#PCDATA)>
+
+]>
+<forma_geometrica>
+    <nombre>rombo</nombre>
+    <caracteristicas>
+        <color>naranja</color>
+        <tipo>plana</tipo>
+    </caracteristicas>
+    <numero_de_lados>4</numero_de_lados>
+</forma_geometrica>
+
+<!--Ejercicio 2 apartado b)-->
+
+<!DOCTYPE lugares [
+    <!ELEMENT lugares (lugar*)>
+    <!ELEMENT lugar (#PCDATA)>
+]>
+<lugares>
+    En el <lugar>polo norte</lugar> hace mucho frio. Pero en el <lugar>
+    desierto del Sahara</lugar> hace mucho calor.
+</lugares>
+
+<!--Ejercicio 2 apartado c)-->
+
+<!DOCTYPE Ciudades [
+    <!ELEMENT ciudades (ciudad)>
+    <!ELEMENT ciudad (nombre, capital?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT capital EMPTY>
+]>
+<ciudades>
+    <ciudad>
+        <nombre>Buenos Aires</nombre>
+        <capital/>
+    </ciudad>
+    <ciudad>
+        <nombre>Liverpool</nombre>
+    </ciudad>
+    <ciudad>
+        <nombre>Osaka</ciudad>
+    </ciudad>
+    <ciudad>
+        <nombre>Oslo</nombre>
+        <capital/>
+    </ciudad>
+</ciudades>
+
+<!--Ejercicio 2 apartado d)-->
+
+<!DOCTYPE socios [
+    <!ELEMENT socios (socio)*>
+    <!ELEMENT socio ((numero | clave)?, nombre, edad?)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT clave (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+]>
+<socios>
+    <socio>
+        <nombre>Buenos Aires</nombre>
+        <edad>21</edad>
+    </socio>
+    <socio>
+        <numero>598</numero>
+        <nombre>Iker</nombre>
+        <edad>19</edad>
+    </socio>
+    <socio>
+        <clave>hY75Du</clave>
+        <nombre>Iker</nombre>
+    </socio>
+</socios>

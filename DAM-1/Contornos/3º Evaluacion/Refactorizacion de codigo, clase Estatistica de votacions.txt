@@ -1,0 +1,52 @@
+package cdrefactoring;
+
+import java.util.Random;
+
+public class EstatisticasApp {
+
+	public static void main(String[] args) {
+		
+
+		int[] votos = new int[5];
+		Random random = new Random();
+		
+		for (int k = 0; k<votos.length; k++)
+			votos[k] = Math.abs((byte)random.nextInt()*20);
+		
+		
+		for (int k = 0; k<votos.length; k++)
+			System.out.println(votos[k]);
+		
+		System.out.println("Número de distritos " + votos.length);
+		
+		System.out.println("Media dos votos emitidos");
+		int media = 0;
+		
+		for (int k = 0; k<votos.length; k++)
+			media += votos[k];
+		
+		media = (int)media / votos.length;
+		
+		System.out.println(media);
+		
+		
+		System.out.println("Máximo dos votos emitidos");
+		int max = 0;
+		
+		for (int k = 0; k<votos.length; k++)
+			if (votos[k]>max)
+				max = votos[k];
+		
+		System.out.println(max);
+		
+		System.out.println("Mínimo dos votos emitidos");
+		int min = votos[0];
+		
+		for (int k = 1; k<votos.length; k++)
+			//Completa o código para calcular o mínimo do array
+		
+		System.out.println(min);
+		
+	}
+
+}

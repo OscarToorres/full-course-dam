@@ -1,0 +1,8 @@
+package ejercicio2;
+
+public class Empresa {
+	
+	private int cif;
+	private String nome;
+
+}

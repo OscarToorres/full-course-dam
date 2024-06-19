@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Documento XML con errores de sintaxis.-->
+<vehiculos>
+    <terrestres>
+        <vehiculo1>bicicleta</vehiculo1>
+        <vehiculo2>coche</vehiculo2>
+        <vehiculo3>tractor</vehiculo3>
+    </terrestres>
+    <acuaticos>
+        <vehiculo1>canoa</vehiculo1>
+    </acuaticos>
+    <aereos>
+        <vehiculo1>avioneta</vehiculo1>
+        <vehiculo2>helicóptero</vehiculo2>
+    </aereos>
+</vehiculos>

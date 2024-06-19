@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="boletin_08.NumerosAleatorios"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="boletin2.Hilo2Ejercicio01"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalThreadStateException"/>
+    <fullyQualifiedTypeName name="ejercicio02.HiloB"/>
+    <fullyQualifiedTypeName name="ejercicio02.HiloA"/>
+    <fullyQualifiedTypeName name="ejercicio03.HiloA"/>
+    <fullyQualifiedTypeName name="ejercicio04.HiloEjercio04"/>
+    <fullyQualifiedTypeName name="ejercicio01.HiloB"/>
+    <fullyQualifiedTypeName name="ejercicio01.HiloA"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="ejercicio02.Hilo1"/>
+    <fullyQualifiedTypeName name="ejercicio03.HiloMainEjercicio03"/>
+    <fullyQualifiedTypeName name="ejercicio04.HiloA"/>
+    <fullyQualifiedTypeName name="ejercicio05.Hilo"/>
+    <fullyQualifiedTypeName name="ejercicio01.Factorial"/>
+    <fullyQualifiedTypeName name="ejercicio01.Fibonacci"/>
+    <fullyQualifiedTypeName name="ejercicio03.ContarApp"/>
+    <fullyQualifiedTypeName name="ejercicio03.ContarThread"/>
+    <fullyQualifiedTypeName name="ejercicio04.ThreadBasicoMain"/>
+    <fullyQualifiedTypeName name="ejercicio04.ThreadBasico"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>

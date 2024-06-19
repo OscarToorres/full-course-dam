@@ -1,0 +1,9 @@
+package ejercicio05;
+
+public class PruebaLetrasHilo {
+
+	public static void main(String[] args) {
+		LetrasHilos instancia = new LetrasHilos("esternocleidomastoideo");
+	}
+
+}

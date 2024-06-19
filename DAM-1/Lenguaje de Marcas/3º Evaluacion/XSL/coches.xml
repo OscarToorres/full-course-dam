@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="coches.xsl"?>
+<tienda>
+    <raqueta>
+        <marca>MERCEDES</marca>
+        <modelo>AMG</modelo>
+        <año>2012</año>
+    </raqueta>
+    <raqueta>
+        <marca>HYUNDAI</marca>
+        <modelo>SONATA</modelo>
+        <año>1997</año>
+    </raqueta>
+    <raqueta>
+        <marca>BMW</marca>
+        <modelo>M4</modelo>
+        <año>2000</año>
+    </raqueta>
+</tienda>

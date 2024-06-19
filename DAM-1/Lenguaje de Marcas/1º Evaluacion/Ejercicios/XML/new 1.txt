@@ -1,0 +1,8 @@
+<html>
+<head>
+	<title>LM</title>
+</head>
+<body bgcolor="#FF0022">
+	colores
+</body>
+</html>

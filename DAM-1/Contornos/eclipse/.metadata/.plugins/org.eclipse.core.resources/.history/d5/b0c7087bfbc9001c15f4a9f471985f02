@@ -1,0 +1,13 @@
+package banco;
+
+public class Cuenta {
+	
+	private float saldo;
+	private float ingresa;
+	private float retira;
+	private float emprestismo;
+	private static final float XURO = 0.15F;
+	
+	
+
+}

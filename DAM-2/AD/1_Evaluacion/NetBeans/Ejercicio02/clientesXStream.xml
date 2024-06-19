@@ -1,0 +1,40 @@
+<listaClientes>
+  <clientes>
+    <cliente>
+      <dni>11111111A</dni>
+      <nombre>Manolo</nombre>
+      <apellidos>Oudterial Rodruiguez</apellidos>
+      <direccion>
+        <direccion>
+          <calle>calle1</calle>
+          <numero>n1</numero>
+          <codigoPostal>12345</codigoPostal>
+        </direccion>
+      </direccion>
+    </cliente>
+    <cliente>
+      <dni>22222222A</dni>
+      <nombre>Luis</nombre>
+      <apellidos>Lustres Manuek</apellidos>
+      <direccion>
+        <direccion>
+          <calle>calle2</calle>
+          <numero>n2</numero>
+          <codigoPostal>12378</codigoPostal>
+        </direccion>
+      </direccion>
+    </cliente>
+    <cliente>
+      <dni>33333333A</dni>
+      <nombre>Albaro</nombre>
+      <apellidos>Carbajal Rodruiguez</apellidos>
+      <direccion>
+        <direccion>
+          <calle>calle3</calle>
+          <numero>n3</numero>
+          <codigoPostal>19874</codigoPostal>
+        </direccion>
+      </direccion>
+    </cliente>
+  </clientes>
+</listaClientes>

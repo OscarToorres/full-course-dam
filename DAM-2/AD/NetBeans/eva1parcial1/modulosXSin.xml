@@ -1,0 +1,38 @@
+<lista>
+  <modulos>
+    <modulo>
+      <curso>1</curso>
+      <descripcion>Lenguajes</descripcion>
+      <alumnos/>
+      <unidades>
+        <unidad>
+          <titulo>Unidad 10</titulo>
+          <descripcion>Spring</descripcion>
+        </unidad>
+        <unidad>
+          <titulo>Unidad 5</titulo>
+          <descripcion>Seguridad</descripcion>
+        </unidad>
+      </unidades>
+    </modulo>
+    <modulo>
+      <curso>2</curso>
+      <descripcion>Acceso a Datos</descripcion>
+      <alumnos/>
+      <unidades>
+        <unidad>
+          <titulo>Unidad 10</titulo>
+          <descripcion>Spring</descripcion>
+        </unidad>
+        <unidad>
+          <titulo>Unidad 4</titulo>
+          <descripcion>Objetos</descripcion>
+        </unidad>
+        <unidad>
+          <titulo>Unidad 1</titulo>
+          <descripcion>Ficheros</descripcion>
+        </unidad>
+      </unidades>
+    </modulo>
+  </modulos>
+</lista>

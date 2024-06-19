@@ -1,0 +1,33 @@
+package teoria.capitulo12.uno;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class CEscribirCars {
+
+	public static void main(String[] args) {
+		
+		FileWriter fs = null;
+		byte[] buffer = new byte[81];
+		int nbytes;
+		String nombreFichero = null;
+		File fichero = null;
+		 
+		try {
+			System.out.println("Nombre del fichero: ");
+			nbytes =System.in.read(buffer);
+			nombreFichero = new String(buffer, 0, nbytes - 2);
+			
+			char reso = 's';
+			if (fichero.exists()) {
+				
+				System.out.print("El fichero existe ¿desea sibreescribirlo? (s/n) ");
+				resp = (char)System.in.read();
+				// Saktar kis bytes no leidos del flujo in
+				System.in.skip(System.in.available());
+			}
+		}
+		
+	}
+
+}

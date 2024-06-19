@@ -1,0 +1,87 @@
+<listaLibro>
+  <libros>
+    <libro>
+      <isbn>142-123-16</isbn>
+      <titulo>La Mona Albaro</titulo>
+      <autores>
+        <string>Federico Garcia Lorca</string>
+        <string>Rosalia de Castro</string>
+      </autores>
+      <ano>2021</ano>
+      <prestado>true</prestado>
+      <lector>
+        <nombre>Manolo</nombre>
+        <dni>78548552Z</dni>
+      </lector>
+    </libro>
+    <libro>
+      <isbn>133-666-33</isbn>
+      <titulo>Fitipaldi</titulo>
+      <autores>
+        <string>Don Luis Fernandez</string>
+        <string>Jose Carlos el Artista</string>
+      </autores>
+      <ano>1999</ano>
+      <prestado>true</prestado>
+      <lector>
+        <nombre>Luis</nombre>
+        <dni>89543215F</dni>
+      </lector>
+    </libro>
+    <libro>
+      <isbn>142-233-44</isbn>
+      <titulo>Filipinas</titulo>
+      <autores>
+        <string>Federico Garcia Lorca</string>
+        <string>Rosalia de Castro</string>
+      </autores>
+      <ano>2009</ano>
+      <prestado>false</prestado>
+      <lector>
+        <nombre>Adrian</nombre>
+        <dni>56141315F</dni>
+      </lector>
+    </libro>
+    <libro>
+      <isbn>346-123-24</isbn>
+      <titulo>El Cantar de MiaPirola</titulo>
+      <autores>
+        <string>Don Luis Fernandez</string>
+        <string>Jose Carlos el Artista</string>
+      </autores>
+      <ano>2022</ano>
+      <prestado>true</prestado>
+      <lector>
+        <nombre>Hugo</nombre>
+        <dni>78545342Z</dni>
+      </lector>
+    </libro>
+    <libro>
+      <isbn>666-555-76</isbn>
+      <titulo>Una vieja sobre el mar</titulo>
+      <autores>
+        <string>Marco Antonio</string>
+      </autores>
+      <ano>2014</ano>
+      <prestado>false</prestado>
+      <lector>
+        <nombre>Alberto</nombre>
+        <dni>99998552Z</dni>
+      </lector>
+    </libro>
+    <libro>
+      <isbn>377-543-12</isbn>
+      <titulo>Al tres metros del infierno</titulo>
+      <autores>
+        <string>Federico Garcia Lorca</string>
+        <string>Rosalia de Castro</string>
+      </autores>
+      <ano>2000</ano>
+      <prestado>false</prestado>
+      <lector>
+        <nombre>Oscar</nombre>
+        <dni>78214452Z</dni>
+      </lector>
+    </libro>
+  </libros>
+</listaLibro>

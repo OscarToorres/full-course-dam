@@ -1,0 +1,84 @@
+//TAREFA
+
+//Realiza as probas do seguinte aplicativo:
+//a) no método main da propia clase Avaliacion
+//b) creando unha clase de probas unitarias con JUnit
+
+//Modifica o código para que rexeite casos nos que
+//algunha cualificación é negativa ou nula.
+//Repite as probas do apartado anterior
+
+public class Avaliacion {
+
+	private Alumna alumna;
+	private int[] cualificacions;
+	
+	
+	public Avaliacion(Alumna alumna) {
+		super();
+		this.alumna = alumna;
+		this.cualificacions = this.alumna.getCualificacions();
+	}
+
+	public double cualificacionFinal() {
+		double media = 0.0;
+		for(int k = 0; k< this.alumna.getCualificacions().length; k++) {
+			media += this.cualificacions[k];
+		}
+		media /=this.cualificacions.length;
+		return media;
+	}
+	
+	public static void main(String[] args) {
+		//realiza as probas da clase
+	}
+
+}
+
+// --------------------------------------------------------------------------------
+
+import java.util.Arrays;
+
+public class Alumna {
+	private String nome;
+	private String ciclo;
+	private String modulo;
+	private int curso;
+	private int[] cualificacions;
+	
+	public Alumna(String nome, String ciclo, String modulo, int curso, int[] cualificacions) {
+		super();
+		this.nome = nome;
+		this.ciclo = ciclo;
+		this.modulo = modulo;
+		this.curso = curso;
+		this.cualificacions = cualificacions;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getCiclo() {
+		return ciclo;
+	}
+
+	public String getModulo() {
+		return modulo;
+	}
+
+	public int getCurso() {
+		return curso;
+	}
+
+	public int[] getCualificacions() {
+		return cualificacions;
+	}
+
+	@Override
+	public String toString() {
+		return "Alumna [nome=" + nome + ", ciclo=" + ciclo + ", modulo=" + modulo + ", curso=" + curso
+				+ ", cualificacions=" + Arrays.toString(cualificacions) + "]";
+	}
+	
+}

@@ -1,0 +1,19 @@
+package teoria.capitulo12.uno;
+
+import java.io.FileOutputStream;
+
+public class CEscribirBytes {
+
+	public static void main(String[] args) {
+		
+		FileOutputStream fs = null;
+		byte[] buffer = new byte[81];
+		int nbytes;
+		
+		try {
+			System.out.println("Escriba el texto que desea almacenar en el fichero:");
+			nbytes = System.in.read(buffer);
+		}
+	}
+
+}

@@ -1,0 +1,48 @@
+package teoria.capitulo02.ordenador;
+
+public class CApOrdenador2 {
+	String Marca;
+	String Procesador;
+	String Pantalla;
+	boolean OrdenadorEncendido;
+	boolean Presentación;
+	
+	void EncenderOrdenador() 
+	{
+		if (OrdenadorEncendido == true) {
+			System.out.println("======================================== ");
+			System.out.println("El ordenador2 ya está encendido.");
+			System.out.println("======================================== ");
+		}else 
+		{
+			OrdenadorEncendido = true;
+			System.out.println("======================================== ");
+			System.out.println("El ordenador2 se ha encendido.");
+			System.out.println("======================================== ");
+		}
+	}
+
+	void Estado()
+	{
+		System.out.println("\nEstado del ordenador2:" +
+							"\nMarca " + Marca +
+							"\nProcesador " + Procesador +
+							"\nPantalla " + Pantalla + "\n");
+		if (OrdenadorEncendido == true) {
+			System.out.println("El ordenador2 está encendido.");
+			System.out.println("======================================== ");
+		}else
+			System.out.println("El ordenador2 está apagado");
+	}
+
+	public static void main (String[] args)
+	{
+		CApOrdenador2 MiOrdenador = new CApOrdenador2();
+		MiOrdenador.Marca = ":Ast";
+		MiOrdenador.Procesador = ":Intel Pentium";
+		MiOrdenador.Pantalla = ":TFT";
+		MiOrdenador.EncenderOrdenador();
+		MiOrdenador.Estado();
+	}
+
+}

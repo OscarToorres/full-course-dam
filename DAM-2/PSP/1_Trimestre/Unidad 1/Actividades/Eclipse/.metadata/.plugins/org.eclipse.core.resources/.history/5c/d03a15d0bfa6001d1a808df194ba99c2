@@ -1,0 +1,6 @@
+package pruebas;
+
+public class EjemploURLyCon {
+
+	@SuppressWarnings("rawtypes")
+}

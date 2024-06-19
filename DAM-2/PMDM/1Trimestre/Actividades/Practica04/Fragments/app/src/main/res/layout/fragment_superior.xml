@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".SuperiorFragment">
+
+    <Button
+        android:id="@+id/manzanas"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Manzanas"
+        android:textStyle="bold"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/peras"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Peras"
+        android:textStyle="bold"
+        android:backgroundTint="@color/lightBlue"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manzanas" />
+
+    <Button
+        android:id="@+id/platanos"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Plátanos"
+        android:backgroundTint="@color/lightBlue"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peras" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

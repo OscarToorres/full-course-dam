@@ -1,0 +1,13 @@
+package pruebas;
+
+import java.net.*;
+
+public class EjemploURLyCon {
+
+	public static void main(String[] args) {
+		URL url = new URL("http://iessanclemente.net");
+		
+	}
+	
+	
+}

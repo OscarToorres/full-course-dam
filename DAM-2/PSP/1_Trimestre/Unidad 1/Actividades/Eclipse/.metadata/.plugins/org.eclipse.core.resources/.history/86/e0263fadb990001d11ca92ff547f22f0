@@ -1,0 +1,28 @@
+package ejercicio01;
+
+public class MainContador {
+
+	public static void main(String[] args) {
+
+		Contador cuenta1 = new Contador();
+		Contador cuenta2 = new Contador();
+		Contador cuenta3 = new Contador();
+		Contador cuenta4 = new Contador();
+
+		
+		ContadorHilo hilo1 = new ContadorHilo(cuenta1, "Hilo1");
+		ContadorHilo hilo2 = new ContadorHilo(cuenta2, "Hilo2");
+		ContadorHilo hilo3 = new ContadorHilo(cuenta3, "Hilo3");
+		ContadorHilo hilo4 = new ContadorHilo(cuenta4, "Hilo4");
+		
+		hilo1.start();
+		hilo2.start();
+		hilo3.start();
+		hilo4.start();
+		
+		System.out.println("Fin del programa");
+		
+		
+		
+	}
+}

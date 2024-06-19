@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT agenda (contacto)+>
+<!ELEMENT contacto (nombre_apellidos, telefono*, edad, email*, di-
+reccion)>
+<!ELEMENT nombre_apellidos (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT direccion (calle, cod_post, provincia)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT cod_post (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+
+<agenda>
+    <contacto>
+        <nombre_apellidos>Francisco Ruiz González</nombre_apellidos>
+        <telefono>600222xxx</telefono>
+        <edad>39</edad>
+        <email>curro@gmail.com</email>
+        <direccion>
+            <calle>cómpeta 16</calle>
+            <cod_post>12345</cod_post>
+            <provincia>Málaga</provincia>
+        </direccion>
+    </contacto>
+    <contacto>
+        <nombre_apellidos>Francisco Ruiz González</nombre_apellidos>
+        <telefono>600222xxx</telefono>
+        <edad>39</edad>
+        <email>curro@gmail.com</email> 
+        <direccion>
+            <calle>cómpeta 16</calle>
+            <cod_post>12345</cod_post>
+            <provincia>Málaga</provincia>
+        </direccion>
+    </contacto>
+    <contacto>
+        <nombre_apellidos>Pepe Escudero</nombre_apellidos>
+        <telefono>954122xxx</telefono>
+        <telefono>602222xxx</telefono>
+        <edad>25</edad>
+        <direccion>
+            <calle>cristo</calle>
+            <cod_post>29785</cod_post>
+            <provincia>Málaga</provincia>
+        </direccion>
+    </contacto>
+    <contacto>
+        <nombre_apellidos>Carmen Ruiz García</nombre_apellidos>
+        <edad>18</edad>
+        <email>carmen@gmail.com</email>
+        <email>carmen1@gmail.com</email>
+        <email>carmen2@gmail.com</email>
+        <direccion>
+            <calle>canalejas</calle>
+            <cod_post>25985</cod_post>
+            <provincia>Cádiz</provincia>
+        </direccion>
+    </contacto>
+</agenda>
+
+
+<!ELEMENT agenda (contacto______)>
+<!ELEMENT contacto (nombre_apellidos, telefono__, edad, email__, di-
+reccion)>
+<!ELEMENT nombre_apellidos (#PCDATA)>
+<!ELEMENT telefono (_________)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT direccion (calle, cod_post, __________)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT cod_post (__________)>
+<!ELEMENT provincia (#PCDATA)>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eventos [
+<!ELEMENT eventos (evento)>
+<!ELEMENT evento (nombre, mes, lugar, duracion, organizador)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT organizador (nombre_o, profesion, fecha_nac, ciudad, telefono, email)>
+<!ELEMENT nombre_o (#PCDATA)>
+<!ELEMENT profesion (#PCDATA)>
+<!ELEMENT fecha_nac (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST ciudad
+          cp CDATA #REQUIRED>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono
+          n CDATA #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+]>
+<eventos>
+    <evento>
+        <nombre>Diverciencia</nombre>
+        <mes>mayo</mes>
+        <lugar>Algeciras</lugar>
+        <duracion>1 semana</duracion>
+        <organizador>
+            <nombre_o>Juan manuel C.</nombre_o>
+            <profesion>matematico</profesion>
+            <fecha_nac>07/05/1960</fecha_nac>
+            <ciudad cp="29700">Malaga</ciudad>
+            <telefono n="666666666"/>
+            <email>lm@prueba.com</email>
+        </organizador>
+    </evento>
+</eventos>

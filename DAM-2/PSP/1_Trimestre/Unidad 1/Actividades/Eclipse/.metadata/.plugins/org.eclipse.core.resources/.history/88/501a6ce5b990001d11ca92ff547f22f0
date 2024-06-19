@@ -1,0 +1,16 @@
+package ejercicio01;
+
+public class Contador {
+	private int contador = 0;
+
+	public Contador() {
+	}
+
+	public void cuenta(int cuenta) {
+		contador = cuenta + 1;
+	}
+
+	public int getContador() {
+		return contador;
+	}
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE saludos [
+   <!ELEMENT saludos (saludo*)>
+   <!ELEMENT saludo (#PCDATA)>
+      <!ATTLIST saludo idioma (ALE | FRA | ITA | POR | ESP) "ESP">
+]>
+
+<saludos>
+   <saludo idioma="ALE">Hallo</saludo>
+   <saludo >Hola</saludo>
+   <saludo idioma="ITA">Ciao</saludo>
+   <saludo idioma="FRA">Salut</saludo>
+   <saludo idioma="POR">Olá</saludo>
+</saludos>
+
+<!--Apartado b)-->
+
+<!DOCTYPE declaraciones [
+   <!ELEMENT declaraciones (consonante, (tipo_de_dato | variable)*)>
+   <!ELEMENT consonante (#PCDATA)>
+      <!ATTLIST consonante valor CDATA #FIXED>
+   <!ELEMENT tipo_de_dato (#PCDATA)>
+   <!ELEMENT variable (#PCDATA)>
+      <!ATTLIST variable tipo CDATA #IMPLIED>
+]>
+
+<declaraciones>
+   <consonante valor="3.141592">PI</consonante>
+   <variable tipo="real">radio</variable>
+   <variable>area</variable>
+   <variable>longitud</variable>
+</declaraciones>
+
+<!--Apartado c)-->
+
+<!DOCTYPE cine [
+   <!ELEMENT cine (peliculas)>
+   <!ELEMENT peliculas (pelicula)*>
+         <!ATTLIST pelicula codpel ID (P1 | P2 | P3 | P4) "P0">
+   <!ELEMENT actores (actor)*>
+      <!ELEMENT actor (#PCDATA)>
+         <!ATTLIST actor filmografia IDREF #REQUIRED>
+]>
+
+<cine>
+   <peliculas>
+      <pelicula>Avatar</pelicula>
+      <pelicula codpel="P1">Gran Torino</pelicula>
+      <pelicula codpel="P2">Invictus</pelicula>
+      <pelicula codpel="P3">Million dollar baby</pelicula>
+      <pelicula codpel="P4">Oblivion</pelicula>
+      <pelicula codpel="P5">Unforgiven</pelicula>
+   </peliculas>
+   <actores>
+      <actor filmografia="P1 P3 P5">Clint Eastwood</actor>
+      <actor filmografia="P2 P3 P4 P5">Morgan Freeman</actor>
+      <actor filmografia="P4">Tom Cruise</actor>
+   </actores>
+</cine>
+

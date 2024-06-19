@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="tvTitle">CALCULADORA</string>
+    <string name="n1">Numero 1</string>
+    <string name="n2">Numero 2</string>
+    <string name="btnSumar">Sumar</string>
+</resources>

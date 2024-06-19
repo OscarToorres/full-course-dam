@@ -1,0 +1,10 @@
+package ejercicio2;
+
+public class Tecnico extends Tecnicos{
+
+	private int tlf;
+	private double horas;
+	
+	
+	
+}

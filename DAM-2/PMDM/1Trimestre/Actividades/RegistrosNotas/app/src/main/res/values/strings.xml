@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RegistrosNotas</string>
+    <string name="alumno">Nombre del alumno</string>
+    <string name="modulo">Modulo</string>
+    <string name="nota">Calificacion</string>
+    <string name="txtView">Notas del Alumnado</string>
+</resources>

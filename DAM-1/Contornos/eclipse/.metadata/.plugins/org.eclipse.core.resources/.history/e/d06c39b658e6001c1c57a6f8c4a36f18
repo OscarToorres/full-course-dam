@@ -1,0 +1,9 @@
+package ejercicio2;
+
+public class Cliente extends Persona{
+
+	private double pago;
+	private double credito;
+	private String empresa;
+	
+}

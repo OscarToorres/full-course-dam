@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio31.xsl"?>
+<peliculas>
+    <pelicula>
+        <Nombre>Los aquelarres de cuatro vientos</Nombre>
+        <actores>
+            <actor>Hugo Santos</actor>
+            <actor>Carlos Lama</actor>
+        </actores>
+        <director>Luis Valderrama</director>
+        <valoracion>5</valoracion>
+        <público>infantiles</público>
+    </pelicula>
+    <pelicula>
+        <Nombre>Los spice raquets</Nombre>
+        <actores>
+            <actor>Alberto Romero</actor>
+            <actor>Nelson Ageitos</actor>
+        </actores>
+        <director>Isaac Sánchez</director>
+        <valoracion></valoracion>
+        <público>infantiles</público>
+    </pelicula>
+    <pelicula>
+        <Nombre>El tomator de la Dehesa</Nombre>
+        <actores>
+            <actor>Alvaro Regueira</actor>
+            <actor>Luis Lustres</actor>
+        </actores>
+        <director>Luis Valderrama</director>
+        <valoracion>3</valoracion>
+        <público>todos los públicos</público>
+    </pelicula>
+    <pelicula>
+       <Nombre>Emulando a U2</Nombre>
+       <actores>
+            <actor>George Spain</actor>
+            <actor>James Car</actor>
+        </actores>
+       <director>Fonsi Verdejo</director>
+       <valoracion>3</valoracion>
+       <público>adultos</público>
+    </pelicula>
+</peliculas>

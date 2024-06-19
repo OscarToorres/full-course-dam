@@ -1,0 +1,9 @@
+package examen;
+
+public class Moroso extends Cliente{
+
+	public Moroso(String nome, String enderezo, String localidade, int cif) {
+		super(nome, enderezo, localidade, cif);
+	}
+
+}

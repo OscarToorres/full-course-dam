@@ -1,0 +1,37 @@
+package ejercicio01;
+
+import java.net.URL;
+
+public class FuncionalidadURL {
+
+	public static void main(String[] args) {
+		URL url;
+
+		try {
+			System.out.println("Constructor simple par auna URL:");
+			url = new URL("http://docs.oracle.com/");
+			Visualizar(url);
+
+			System.out.println("Constructor para protocolo + URL + puerto + directorio:");
+			url = new URL("http", "docs.oracle.com", 80, "/javase/7");
+			Visualizar(url);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private static void Visualizar(URL url) {
+		System.out.println("===============================================================");
+		System.out.println("\tURL completa: " + url.toString());
+		System.out.println("\tProtocolo -> getProtocol(): " + url.getProtocol());
+		System.out.println("\tNombre de la maquina -> getHost(): " + url.getHost());
+		System.out.println("\tPuerto -> getPort(): " + url.getPort());
+		System.out.println("\tFichero -> getFile(): " + url.getFile());
+		System.out.println("\tInformacion del Usuario -> getUserInfo(): " + url.getUserInfo());
+		System.out.println("\tRuta -> getPath(): " + url.getPath());
+		System.out.println("\tAutoridad de url -> getAuthority(): " + url.getAuthority());
+		System.out.println("\tConsulta -> getQuery(): " + url.getQuery());
+
+	}
+
+}

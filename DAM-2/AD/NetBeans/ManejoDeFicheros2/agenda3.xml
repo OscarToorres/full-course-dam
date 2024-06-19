@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<agenda>
+        
+    <contacto id="1">
+                
+        
+        
+    
+        <correo>prueba@gmail.com</correo>
+    </contacto>
+        
+    <contacto id="2">
+                
+        
+        
+    
+        <correo>prueba@gmail.com</correo>
+    </contacto>
+        
+    <contacto id="3">
+                
+        
+        
+    
+        <correo>prueba@gmail.com</correo>
+    </contacto>
+        
+    <contacto id="4">
+                
+        
+        
+    
+        <correo>prueba@gmail.com</correo>
+    </contacto>
+        
+    <contacto id="5">
+                
+        
+        
+    
+        <correo>prueba@gmail.com</correo>
+    </contacto>
+        
+    <contacto id="6">
+                
+        
+        
+    
+        <correo>prueba@gmail.com</correo>
+    </contacto>
+    
+</agenda>

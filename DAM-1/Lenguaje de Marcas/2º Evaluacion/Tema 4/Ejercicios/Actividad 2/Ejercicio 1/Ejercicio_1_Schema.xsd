@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="eventos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="evento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="evento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="mes" type="xs:string"/>
+        <xs:element name="lugar" type="xs:string"/>
+        <xs:element name="duracion" type="xs:string"/>
+        <xs:element ref="organizador"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="organizador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre_o" type="xs:string"/>
+        <xs:element name="profesion" type="xs:string"/>
+        <xs:element name="fecha_nac" type="xs:string"/>
+        <xs:element ref="ciudad"/>
+        <xs:element ref="telefono"/>
+        <xs:element name="email" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ciudad">
+    <xs:complexType mixed="true">
+      <xs:attribute name="cp" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="telefono">
+    <xs:complexType>
+      <xs:attribute name="n" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

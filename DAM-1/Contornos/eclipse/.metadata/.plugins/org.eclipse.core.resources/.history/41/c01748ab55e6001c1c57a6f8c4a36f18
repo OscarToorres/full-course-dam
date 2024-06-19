@@ -1,0 +1,9 @@
+package examen;
+
+public class Emisor extends Persona{
+
+	public Emisor(String nome, String enderezo, String localidade, int cif) {
+		super(nome, enderezo, localidade, cif);
+	}
+
+}

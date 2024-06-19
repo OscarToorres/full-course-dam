@@ -1,0 +1,12 @@
+package banco;
+
+public class Credito extends Cuenta{
+
+	public Credito(float saldo, float ingresa, float retira, float emprestimo) {
+		super(saldo, ingresa, retira, emprestimo);
+	}
+
+	public float prestamo(float emprestismo) {
+		return super.getSaldo() + super.getEmprestimo();
+	}
+}

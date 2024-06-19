@@ -1,0 +1,14 @@
+package ejercicio02;
+
+public class Terminal extends Thread{
+
+	private Cajero cajero;
+
+	public Terminal(Cajero cajero) {
+		super();
+		this.cajero = cajero;
+	}
+	
+	
+	
+}

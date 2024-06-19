@@ -1,0 +1,9 @@
+http://docs.oracle.com:80/javase/7URL completa: http://docs.oracle.com:80/javase/7
+Protocolo -> getProtocol(): http
+Nombre de la maquina -> getHost(): docs.oracle.com
+Puerto -> getPort(): 80
+Fichero -> getFile(): /javase/7
+Informacion del Usuario -> getUserInfo(): null
+Ruta -> getPath(): /javase/7
+Autoridad de url -> getAuthority(): docs.oracle.com:80
+Consulta -> getQuery(): null

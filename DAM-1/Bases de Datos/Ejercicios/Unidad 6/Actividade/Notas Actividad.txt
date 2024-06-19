@@ -1,0 +1,4 @@
+1º Hacer un repaso de la actividad anterior y hacer las correcciones necesarias en la BD
+2º Introducir los datos puestos de ejempplo en la actividad anterior con inserts. Si es necesario modificar algo, habra que
+hacerlo e indicarlo.
+3º Hayq ue hacer algo con el primer insert.¿?

@@ -1,0 +1,9 @@
+package banco;
+
+public class Credito extends Cuenta{
+
+	public Credito(float saldo, float ingresa, float retira, float emprestismo) {
+		super(saldo, ingresa, retira, emprestismo);
+	}
+
+}

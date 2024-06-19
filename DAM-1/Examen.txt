@@ -1,0 +1,60 @@
+1) en una jerarquía de clases
+      una clase es más especializada cuanto más alejada esté de la raíz(X)
+
+2) una de estas frases es falsa
+      un método abstracto tiene cuerpo(X)
+
+3) Una de estas frases es falsa
+      se define una clase base como una extensión de una superclase (X)
+
+4) una de estas frases es falsa
+      java permite la herencia múltiple, una subclase sólo puede serlo de una superclase (X)
+
+5) una subclase
+      no puede acceder a los miembros privados de su superclase(X)
+
+6) la palabra reservada super
+      permite acceder a un método de la superclase, que ha sido redefinido en la subclase(X)
+
+7) el control de acceso de un método redefinido en la subclase
+      no puede ser más restrictivo que el original (X)
+
+8) se utiliza la palabra reservada super
+      para invocar explícitamente al constructor de la superclase (X)
+
+9) una de estas frases es falsa
+      si la superclase tiene un constructor con parámentros no es necesario invocarlo explícitamente(X)
+
+10) el constructor de una subclase
+      invoca automáticamente al constructor sin parámetros de su superclase (X)
+
+11) una de estas frases es cierta
+      una programación segura aconseja redefinir el método finalize en cada una de las subclases(X)
+
+12) una subclase
+      tiene una única superclase directa(X)
+
+13) una suclase que redefina un método heredado
+      no puede acceder a la versión de su superclase indirecta(X)
+
+
+14) cuando accedemos a un objeto de una subclase por medio de una referencia a su superclase
+      este objeto sólo puede ser manipulado por lo métodos de su superclase(X)
+
+15) cuando se invoca a un método que está definido en la superclase y redefinido en sus subclases, 
+      depende de la clase del objeto referenciado (X)
+
+16) una de estas frases no es cierta
+      una subclase no es una extensión de su superclase(X)
+
+17) los métodos de una subclase
+      no tienen acceso a los miembros privados de su superclase(X)
+
+18) cuando se crea un objeto de una subclase
+      primero se construye la porción del objeto correspondiente a su superclase(X)
+
+19) en un árbol de clases
+      las clases terminales del árbol representan los tipos más especializados(X)
+
+20) un miembro declarado en una clase como predeterminado
+      puede ser accedido desde cualquier subclase del mismo paquete(X)

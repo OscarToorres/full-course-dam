@@ -1,0 +1,32 @@
+package pruebas;
+
+import java.net.*;
+
+public class TestInetAddress {
+
+	public static void main(String[] args) {
+		InetAddress dir = null;
+		System.out.println("=================================");
+		System.out.println("SALIDA PARA LOCALHOST");
+		try{
+			//LOCALHOST
+			dir = InetAddress.getByName("localhost");
+			pruebaMetodos(dir);
+			
+			System.out.println("=================================");
+			System.out.println("SALIDA PARA UNA URL");
+			dir = InetAddress.getByName("www.google.es");
+			pruebaMetodos(dir);
+			
+			System.out.println(" \tDIRECCIONES IP PARA: " + dir.getHostName());
+			InetAddress[] direcciones = InetAddress.getAllByName(dir.getHostName());
+			for (int i = 0; i < direcciones.length; i++) {
+				System.out.println("\t\t" + direcciones[i].toString());
+			System.out.println("=====================================");
+			}
+			}catch (UnknownHostException el) {
+			el.printStackTrace();
+		}
+	}
+	
+}

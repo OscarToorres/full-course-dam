@@ -1,0 +1,11 @@
+package ejercicio01;
+
+public class ContadorHilo extends Thread{
+
+	public void run() {
+		
+	}
+
+	
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agenda xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Ejercicio_2_Schema.xsd">
+    <contacto>
+        <nombre_apellidos>Oscar Torres Rodríguez</nombre_apellidos>
+        <telefono>666666666</telefono>
+        <edad>19</edad>
+        <email>estoesunejemplo@gmail.com</email>
+    </contacto>
+    <contacto>
+        <nombre_apellidos>Ramon Arturo Rodríguez</nombre_apellidos>
+        <telefono>666667666</telefono>
+        <telefono>666667667</telefono>
+        <edad>23</edad>
+        <email>estoesunejemplo1@gmail.com</email>
+        <email>estoesunejemplo2@gmail.com</email>
+        <email>estoesunejemplo3@gmail.com</email>
+    </contacto>
+    <contacto>
+        <nombre_apellidos>Manuel Torres Gonzalez</nombre_apellidos>
+        <edad>40</edad>
+        <email>estoesunejemplo4@gmail.com</email>
+    </contacto>
+</agenda>

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Rectangulo {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Lado a = ");
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		
+		System.out.println("Lado b = ");
+		int b = scanner.nextInt();
+		
+		int superficie, perimetro;
+
+		System.out.println("Opción\r\n\t1. Perímetro\r\n\t2. Superficie\r\n\t0. Saír");
+		int opcion = scanner.nextInt();
+
+		switch (opcion) {
+		
+		case 1: 
+			perimetro = a + a+ b +b;
+			System.out.println("Perímetro p = " + perimetro);
+		break;
+		
+		case 2: 
+			superficie = a * b;
+			System.out.println("Superficie s = " + superficie);
+		break;
+		
+		default: 
+			System.out.println("Saír");
+		break;
+		
+		}
+	}
+}
+

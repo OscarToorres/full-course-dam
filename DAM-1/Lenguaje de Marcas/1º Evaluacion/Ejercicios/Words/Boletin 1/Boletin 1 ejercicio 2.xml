@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+  <animales>
+
+    <mamíferos>
+      <información>Son de sangre caliente</información>
+      <informacion>La mayoría son hovíparos</informacion>
+      <ejemplos>Algunos ejemplos de mamíferos son: el Canguro, la orca, un ratón, etc...</ejemplos>
+    </mamíferos>
+  </animales>
+
+</agenda>

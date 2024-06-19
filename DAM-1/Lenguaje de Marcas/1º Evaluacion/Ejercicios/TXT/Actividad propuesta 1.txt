@@ -1,0 +1,3 @@
+1.1. F El valor de la eticata asignado es alumno ya que la etiqueta es autor y alumno es el valor que recibe. 
+1.2. F Al abrir la página web sadria solo el "Hola Mundo", el resto es el código interno de la página
+que se encuentra oculto para el usuario que entra a verla.

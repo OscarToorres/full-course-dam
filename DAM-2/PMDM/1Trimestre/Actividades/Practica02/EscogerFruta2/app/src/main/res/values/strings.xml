@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EscogerFruta2</string>
+    <string name="opciones">a:Aguacates, c:Cerezas,m:Manzanas</string>
+</resources>

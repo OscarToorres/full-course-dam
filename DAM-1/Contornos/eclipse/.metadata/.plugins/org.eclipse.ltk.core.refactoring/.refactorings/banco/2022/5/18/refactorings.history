@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;banco.Aforo&apos; to &apos;Aforro&apos;&#x0D;&#x0A;- Original project: &apos;banco&apos;&#x0D;&#x0A;- Original element: &apos;banco.Aforo&apos;&#x0D;&#x0A;- Renamed element: &apos;banco.Aforro&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Aforo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;banco{Aforo.java[Aforo" matchStrategy="1" name="Aforro" qualified="false" references="true" similarDeclarations="false" stamp="1651483906922" textual="false" version="1.0"/>
+</session>

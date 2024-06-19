@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;UD3_Sockets/src/sockets4&apos;&#x0D;&#x0A;- Original project: &apos;UD3_Sockets&apos;&#x0D;&#x0A;- Destination element: &apos;UD3_Sockets/src/sockets4&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     sockets3.User.java&#x0D;&#x0A;     sockets3.Server.java" description="Copy compilation units" destination="/src&lt;sockets4" element1="/src&lt;sockets3{User.java" element2="/src&lt;sockets3{Server.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677570681739" units="2" version="1.0"/>
+</session>

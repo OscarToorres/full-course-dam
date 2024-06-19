@@ -1,0 +1,150 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class RefecionApp {
+
+	public static void main(String[] args) {
+
+		Alimento a1 = new Alimento("Pan", 100, 10, 5, 85);
+		Alimento a2 = new Alimento("Patacas", 120, 30, 25, 45);
+		Alimento a3 = new Alimento("Sardiña", 200, 30, 40, 30);
+		Alimento a4 = new Alimento("Mazá", 30, 5, 4, 90);
+
+		Ingrediente i1 = new Ingrediente(a1, 80);
+		Ingrediente i2 = new Ingrediente(a2, 40);
+		Ingrediente i3 = new Ingrediente(a3, 250);
+		Ingrediente i4 = new Ingrediente(a3, 100);
+
+		List<Ingrediente> ingredientes = new ArrayList<Ingrediente>();
+		ingredientes.add(i1);
+		ingredientes.add(i2);
+		ingredientes.add(i3);
+		ingredientes.add(i4);
+
+		System.out.println("Selecciona unha opción");
+		Scanner scanner = new Scanner(System.in);
+		int opcion = scanner.nextInt();
+
+		switch (opcion) {
+		case 0:
+			System.out.println("Lista de ingredientes da dieta");
+			for (Ingrediente ingrediente : ingredientes)
+				System.out.println(ingrediente.toString());
+			break;
+
+		case 1:
+			System.out.println("Peso dos ingredientes da dieta");
+			// Completa o seguinte método
+			for (Ingrediente ingrediente : ingredientes)
+				System.out.println();
+			break;
+
+		case 2:
+			// Completa o seguinte método
+			System.out.println("Porcentaxes da composición");
+			for (Ingrediente ingrediente : ingredientes)
+				System.out.println();
+			break;
+
+		case 3:
+			// Completa o seguinte método
+			System.out.println("Calorías totais da dieta especificada");
+			for (Ingrediente ingrediente : ingredientes)
+				System.out.println();
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}
+
+// ------------------------------------
+
+
+public class Alimento {
+	
+	private String nome;
+	private int calorias;
+	
+	private int proteinas;
+	private int lipidos;
+	private int carbohidratos;
+	
+
+	public Alimento(String nome, int calorias, int proteinas, int lipidos, int carbohidratos) {
+		super();
+		this.nome = nome;
+		this.calorias = calorias;
+		this.proteinas = proteinas;
+		this.lipidos = lipidos;
+		this.carbohidratos = carbohidratos;
+	
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public int getCalorias() {
+		return calorias;
+	}
+
+	public int getProteinas() {
+		return proteinas;
+	}
+
+	public int getLipidos() {
+		return lipidos;
+	}
+
+	public int getCarbohidratos() {
+		return carbohidratos;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Alimento \t" + nome + " \tcalorias=" + calorias + ", proteinas=" + proteinas + ", lipidos=" + lipidos
+				+ ", carbohidratos=" + carbohidratos;
+	}
+	
+	
+
+}
+
+// ---------------------------------------------------
+
+public class Ingrediente {
+	
+	private int cantidade;
+	private Alimento alimento;
+	private int calorias;
+	
+	
+	public Ingrediente(Alimento alimento, int cantidade) {
+		super();
+		this.alimento = alimento;
+		this.cantidade = cantidade;
+	}
+	public Alimento getAlimento() {
+		return alimento;
+	}
+	public int getCantidade() {
+		return cantidade;
+	}
+	@Override
+	public String toString() {
+		
+		return alimento.toString() + "\t\t cantidade= " + cantidade;
+	}
+	
+}
+
+
+
+
+

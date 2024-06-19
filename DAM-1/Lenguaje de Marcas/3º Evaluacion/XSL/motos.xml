@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="motos.xsl"?>
+<tienda>
+    <raqueta>
+        <marca>MACBOR</marca>
+        <modelo>XR1</modelo>
+        <año>2019</año>
+    </raqueta>
+    <raqueta>
+        <marca>BMW</marca>
+        <modelo>S1000RR</modelo>
+        <año>2021</año>
+    </raqueta>
+    <raqueta>
+        <marca>HONDA</marca>
+        <modelo>R10000RRR</modelo>
+        <año>2021</año>
+    </raqueta>
+</tienda>

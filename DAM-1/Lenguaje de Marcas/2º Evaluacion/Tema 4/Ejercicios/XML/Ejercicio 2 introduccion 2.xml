@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<triangulos>
+    <numero1>
+        <base>7</base>
+        <altura>5</altura>
+    </numero1>
+    <numero2>
+        <base>7</base>
+        <altura>6</altura>
+    </numero2>
+     <numero3>
+        <base>3</base>
+        <altura>3</altura>
+    </numero3>
+</triangulos>

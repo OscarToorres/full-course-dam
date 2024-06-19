@@ -1,0 +1,34 @@
+package sockets4;
+
+import java.net.*;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+
+public class Server {
+
+	public static void main(String args[]) throws Exception {
+		DatagramSocket ds = new DatagramSocket();
+		InetAddress ip = InetAddress.getByName("127.0.0.1");
+		byte[] buf = new byte[1024];
+		DatagramPacket dp = new DatagramPacket(buf, 1024);
+
+		LocalTime hora = java.time.LocalTime.now();
+		LocalDate fecha = java.time.LocalDate.now();
+		
+		ds.receive(dp);
+		String strRecive = new String(dp.getData(), 0, dp.getLength());
+		String strSend;
+		if ("1".equals(strRecive)) {
+			strSend = "Respuesta del servidor: " + fecha + " " + hora;
+			
+		} else {
+			strSend = "Error maquina";
+		}
+		Thread.sleep(5000);
+		
+		DatagramPacket dp = new DatagramPacket(strSend.getBytes(), strSend.length(), ip, 3000);
+		ds.send(dp);
+		ds.close();
+	}
+}

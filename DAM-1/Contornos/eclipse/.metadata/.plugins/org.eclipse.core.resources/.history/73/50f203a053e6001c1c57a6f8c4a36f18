@@ -1,0 +1,11 @@
+package examen;
+
+public class Persona {
+	
+	private String nome;
+	private String enderezo;
+	private String localidade;
+	private int cif;
+	
+
+}

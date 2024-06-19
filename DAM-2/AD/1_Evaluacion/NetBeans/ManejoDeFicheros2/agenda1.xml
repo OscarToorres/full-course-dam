@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<agenda>
+        
+    <contacto id="1">
+                
+        
+        
+        <enderezo>
+                        
+            <calle>calle1</calle>
+                        
+            <numero>12</numero>
+                    
+        </enderezo>
+            
+    </contacto>
+        
+    <contacto id="2">
+                
+        
+        
+        <enderezo>
+                        
+            <calle>calle2</calle>
+                        
+            <numero>56</numero>
+                    
+        </enderezo>
+            
+    </contacto>
+        
+    <contacto id="3">
+                
+        
+        
+        <enderezo>
+                        
+            <calle>calle3</calle>
+                        
+            <numero>342</numero>
+                    
+        </enderezo>
+            
+    </contacto>
+        
+    <contacto id="4">
+                
+        
+        
+        <enderezo>
+                        
+            <calle>calle4</calle>
+                        
+            <numero>2</numero>
+                    
+        </enderezo>
+            
+    </contacto>
+        
+    <contacto id="5">
+                
+        
+        
+        <enderezo>
+                        
+            <calle>calle5</calle>
+                        
+            <numero>234</numero>
+                    
+        </enderezo>
+            
+    </contacto>
+        
+    <contacto id="6">
+                
+        
+        
+        <enderezo>
+                        
+            <calle>calle6</calle>
+                        
+            <numero>65</numero>
+                    
+        </enderezo>
+            
+    </contacto>
+    
+</agenda>

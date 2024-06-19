@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Boletin1-Ej-1.xsl"?>
+<coleccion>
+    <libros>
+        <titulo> BABOLAT </titulo>
+        <autor> PURE DRIVE </autor>
+        <año> 2012 </año>
+        <paginas>170</paginas>
+    </libros>
+    <libros>
+        <titulo> BABOLAT </titulo>
+        <autor> PURE STORM</autor>
+        <año> 2013 </año>
+        <paginas>190</paginas>
+    </libros>
+    <libros>
+        <titulo> YONEX </titulo>
+        <autor> MPTOUR 5 </autor>
+        <año> 1997 </año>
+        <paginas>150</paginas>
+    </libros>
+    <libros>
+        <titulo> WILSON </titulo>
+        <autor> HAMMER </autor>
+        <año> 2000 </año>
+        <paginas> 95 </paginas>
+    </libros>
+    <libros>
+        <titulo> WILSON </titulo>
+        <autor> PRO STAFF </autor>
+        <año> 1997 </año>
+        <paginas> 215 </paginas>
+    </libros>
+</coleccion>

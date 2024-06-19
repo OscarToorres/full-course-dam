@@ -1,0 +1,13 @@
+package ejercicio01;
+
+public class MainContador {
+
+	public static void main(String[] args) {
+
+		Contador cuenta = new Contador();
+		
+		
+		
+		
+	}
+}

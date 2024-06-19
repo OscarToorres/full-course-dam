@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="3-4.xsl"?>
+<peliculas>
+    <pelicula>
+        <titulo>Jumanji</titulo>
+        <actores>
+            <actor>Robin Williams</actor>
+            <actor>Kristen Dunst</actor>
+        </actores>
+        <director>Jake Kasdan</director>
+        <valoracion puntos="5"/>
+        <publico>infantiles<publico>
+    </pelicula>
+    <pelicula>
+        <titulo>Avengers: Endgame</titulo>
+        <actores>
+            <actor>Robert Downey Jr</actor>
+            <actor>Chris Evans</actor>
+        </actores>
+        <director>Anthony Russo</director>
+        <valoracion puntos="5,5"/>
+        <publico>infantiles<publico>
+    </pelicula>
+    <pelicula>
+        <titulo>Avatar</titulo>
+        <actores>
+            <actor>Sam Worthington</actor>
+            <actor>Sigourney Weaver</actor>
+        </actores>
+        <director>James Cameron</director>
+        <valoracion puntos="6"/>
+        <publico>adultos<publico>
+    </pelicula>
+    <pelicula>
+        <titulo>Emulando a U2</titulo>
+        <actores>
+            <actor>Fonsi Verdejo</actor>
+            <actor>Juanjo Pesado</actor>
+        </actores>
+        <director>Luis Valderrama</director>
+        <valoracion puntos="3,3"/>
+        <publico>adultos<publico>
+    </pelicula>
+</peliculas>

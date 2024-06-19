@@ -1,0 +1,41 @@
+package pruebas;
+
+public class Prueba {
+	/*
+	private static int SumaA_B(int a, int b) {
+		int dato;
+		if (a < b)
+			dato = a + SumaA_B(a + 1, b);
+		else
+			dato = a;
+		return dato;
+	}
+	*/
+	private static int SumaA_B(int a, int b) {
+		int dato;
+		if (a < b)
+			dato = b + SumaA_B(a, b - 1);
+		else
+			dato = b;
+		return dato;
+	}
+
+	public static void main(String[] args) {
+
+		int suma;
+		int a, b;
+		a = 4;
+		b = 7;
+		System.out.println(suma = SumaA_B(a, b));
+
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

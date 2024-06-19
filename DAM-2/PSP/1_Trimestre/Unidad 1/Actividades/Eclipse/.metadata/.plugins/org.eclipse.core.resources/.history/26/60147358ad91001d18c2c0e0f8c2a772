@@ -1,0 +1,10 @@
+package ejercicio02;
+
+public class MainCajero {
+
+	public static void main(String[] args) {
+		Cajero cajero = new Cajero("Santander");
+		
+		
+	}
+}

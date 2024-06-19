@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Óscar Torres Rodríguez 1ºDAM-->
+<!DOCTYPE calificaciones [
+   <!ELEMENT calificaciones (datos, materia)+>
+   <!ELEMENT datos (nombre, apellidos)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT apellidos (#PCDATA)>
+   <!ELEMENT materia (oace, eee, marcas)+>
+   <!ELEMENT oace (cuestionario, tareas)>
+   <!ELEMENT eee (cuestionario, tareas)>
+   <!ELEMENT marcas (cuestionario, tareas)>
+   <!ELEMENT cuestionario (#PCDATA)>
+   <!ELEMENT tareas (#PCDATA)>
+]>
+
+<calificaciones>
+    <datos>
+        <nombre>Felipe</nombre>
+        <apellidos>Pascual</apellidos>
+    </datos>
+    <materia>
+        <oace>
+            <cuestionario>4</cuestionario>
+            <tareas>8</tareas>
+        </oace>
+        <eee>
+            <cuestionario>7</cuestionario>
+            <tareas>6</tareas>
+        </eee>
+        <marcas>
+            <cuestionario>7</cuestionario>
+            <tareas>10</tareas>
+        </marcas>
+    </materia>
+    <datos>
+        <nombre>María</nombre>
+        <apellidos>García</apellidos>
+    </datos>
+    <materia>
+        <oace>
+            <cuestionario>9</cuestionario>
+            <tareas>2</tareas>
+        </oace>
+        <eee>
+            <cuestionario>9</cuestionario>
+            <tareas>6</tareas>
+        </eee>
+        <marcas>
+            <cuestionario>7</cuestionario>
+            <tareas>10</tareas>
+        </marcas>
+    </materia>
+</calificaciones>

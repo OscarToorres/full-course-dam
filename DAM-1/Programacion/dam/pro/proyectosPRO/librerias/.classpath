@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="binario/compilador1.jar"/>
+	<classpathentry kind="lib" path="binario/pizarra1.jar"/>
+	<classpathentry kind="lib" path="binario/unidad2.jar"/>
+	<classpathentry kind="lib" path="binario/preparatorios1.jar"/>
+	<classpathentry kind="lib" path="binario/practicas1_4.jar"/>
+	<classpathentry kind="lib" path="binario/compilador2.jar"/>
+	<classpathentry kind="lib" path="binario/pizarra2.jar"/>
+	<classpathentry kind="lib" path="binario/unidad4.jar"/>
+	<classpathentry kind="lib" path="binario/practica5.jar"/>
+	<classpathentry kind="lib" path="binario/unidad5.jar"/>
+	<classpathentry kind="lib" path="binario/unidad6.jar"/>
+	<classpathentry kind="lib" path="binario/herencia.jar"/>
+	<classpathentry kind="lib" path="binario/compilador3.jar"/>
+	<classpathentry kind="lib" path="binario/unidad7.jar"/>
+	<classpathentry kind="lib" path="binario/practicas3.jar"/>
+	<classpathentry kind="lib" path="binario/unidad8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

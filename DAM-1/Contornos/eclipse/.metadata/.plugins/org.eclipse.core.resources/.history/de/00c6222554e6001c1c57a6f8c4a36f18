@@ -1,0 +1,13 @@
+package examen;
+
+public class Moroso extends Cliente{
+
+	private double deuda;
+	private Date data_cobro;
+	
+	public Moroso(String nome, String enderezo, String localidade, int cif, double limite_credito) {
+		super(nome, enderezo, localidade, cif, limite_credito);
+	}
+
+
+}

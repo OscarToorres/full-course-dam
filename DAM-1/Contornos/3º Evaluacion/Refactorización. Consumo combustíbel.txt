@@ -1,0 +1,78 @@
+package consumo;
+
+import java.util.Scanner;
+
+public class ConsumoApp {
+
+	static class Consumo {
+		
+		private int distancia;
+		private int consumoLitros;
+		public Consumo(int distancia, int consumoLitros) {
+			super();
+			this.distancia = distancia;
+			this.consumoLitros = consumoLitros;
+		}
+		
+		public int getDistancia() {
+			return distancia;
+		}
+
+		public int getConsumoLitros() {
+			return consumoLitros;
+		}
+
+		@Override
+		public String toString() {
+			return "Consumo [distancia=" + distancia + ", consumoLitros=" + consumoLitros + "]";
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Consumo[] consumos = new Consumo[] {new Consumo(100, 7), new Consumo(200, 11), new Consumo(100, 8), new Consumo(60, 4) };
+		
+		int distancia = 0;
+		System.out.println("Distancia percorrida");
+		for (Consumo consumo: consumos) {
+			distancia += consumo.getDistancia();
+		}
+		
+		int consumoTotal= 0;
+		System.out.println("Combustíbel consumido, litros");
+		for (Consumo consumo: consumos) {
+			consumoTotal += consumo.getConsumoLitros();
+		}
+
+		
+		//Completa o código seguinte para obtermos os valores indicados en cada opción
+		System.out.println("Indica unha opción\n\t1. Consumo medio\n\t2. Consumo porcentual\n\t3. Consumo estimado\n");
+		int opcion = new Scanner(System.in).nextInt();
+		
+		switch (opcion) {
+		case 1:
+			System.out.println("Consumo medio");
+			
+			
+			break;
+
+		case 2:
+			System.out.println("Consumo porcentual");
+			
+			
+			break;
+			
+		case 3:
+			System.out.println("Consumo estimado, dixite a distancia");
+			Scanner scanner = new Scanner(System.in);
+			int d = scanner.nextInt();
+			System.out.println("Litros = ");
+			break;
+			
+		default:
+			break;
+		}
+		
+	}
+}

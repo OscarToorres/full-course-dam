@@ -1,0 +1,36 @@
+package banco;
+
+public class Cuenta {
+	
+	private float saldo;
+	private float ingresa;
+	private float retira;
+	private float emprestismo;
+	private static final float XURO = 0.15F;
+	
+	public Cuenta(float saldo, float ingresa, float retira, float emprestismo) {
+		super();
+		this.saldo = saldo;
+		this.ingresa = ingresa;
+		this.retira = retira;
+		this.emprestismo = emprestismo;
+	}
+	
+	public float getSaldo() {
+		return saldo;
+	}
+	public float getIngresa() {
+		return ingresa;
+	}
+	public float getRetira() {
+		return retira;
+	}
+	}
+	public float getEmprestismo() {
+		return emprestismo;
+	}
+	public void setEmprestismo(float emprestismo) {
+		this.emprestismo = emprestismo;
+	}
+	
+}

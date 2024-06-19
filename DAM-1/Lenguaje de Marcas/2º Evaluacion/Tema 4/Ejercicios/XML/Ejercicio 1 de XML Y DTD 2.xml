@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formas [
+   <!ELEMENT formas (cuadrado, triangulo, circulo, otra)>
+   <!ELEMENT cuadrado (#PCDATA)>
+      <!ATTLIST cuadrado lados CDATA #REQUIRED>
+   <!ELEMENT triangulo (#PCDATA)>
+      <!ATTLIST triangulo lados CDATA #REQUIRED>
+   <!ELEMENT circulo (#PCDATA)>
+   <!ELEMENT otra EMPTY>
+      <!ATTLIST otra lados CDATA #REQUIRED>
+]>
+
+<formas>
+   <cuadrado lados="4">tablero</cuadrado>
+   <triangulo lados="3">señal</triangulo>
+   <circulo>anilla</circulo>
+   <otra lados="7"/>
+</formas>
+
+<!--Apartado b)-->
+
+<!DOCTYPE empresas [
+   <!ELEMENT empresas (empresa)*>
+   <!ELEMENT empresa EMPTY>
+      <!ATTLIST empresa nombre CDATA #REQUIRED>
+      <!ATTLIST empresa fecha_de_fundacion CDATA #IMPLIED>
+]>
+
+<empresas>
+   <empresa nombre="Apple" fecha_de_fundacion="1976"/>
+   <empresa nombre="Google"/>
+   <empresa nombre="Microsoft" fecha_de_fundacion="1975"/>
+</empresas>
+
+<!--Apartado c)-->
+
+<!DOCTYPE articulos [
+   <!ELEMENT articulos (articulo)+>
+   <!ELEMENT articulo (#PCDATA)>
+      <!ATTLIST articulo color CDATA #FIXED "rojo">
+]>
+
+<articulos>
+   <articulo color="rojo">bolígrafo</articulo>
+   <articulo>cuaderno</articulo>
+   <articulo color="rojo">rotulador</articulo>
+</articulos>
+
+<!--Apartado d)-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia [
+   <!ELEMENT geografia (paises, ciudades)>
+   <!ELEMENT paises (pais)*>
+      <!ELEMENT pais (#PCDATA)>
+         <!ATTLIST pais codpais ID #REQUIRED>
+   <!ELEMENT ciudades (ciudad)*>
+      <!ELEMENT ciudad (#PCDATA)>
+         <!ATTLIST ciudad pais IDREF #IMPLIED>
+]>
+
+<!--El fallo esta en los codigos de ciudad que tiene que 
+hacer referencia a un pais y falta un pais por añadir ya 
+que son 4 y hay 5 ciudades.-->
+<geografia>
+   <paises>
+      <pais codpais="1">Argentina</pais>
+      <pais codpais="2">Austria</pais>
+      <pais codpais="3">Japón</pais>
+      <pais codpais="4">Noruega</pais>
+   </paises>
+   <ciudades>
+      <ciudad pais="1">Osaka</ciudad>
+      <ciudad>Oslo</ciudad>
+      <ciudad pais="">Sevilla</ciudad>
+      <ciudad pais="3">Tokio</ciudad>
+      <ciudad pais="2">Viena</ciudad>
+   </ciudades>
+</geografia>
+

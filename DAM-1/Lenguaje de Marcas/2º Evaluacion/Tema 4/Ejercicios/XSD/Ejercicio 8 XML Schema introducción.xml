@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" elementFromDefault="qualified">
+    <xsd:element name="matricula">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="personal">
+                <xsd:element ref="pago">
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="personal">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="dni" type="xsd:string"/>
+                <xsd:element name="nombre" type="xsd:string"/>
+                <xsd:element name="titulacion" type="xsd:string"/>
+                <xsd:element mame="curso_academico" type="xsd:date"/>
+                <xsd:element name="domicilios">
+            </xsd:sequence>
+        </xsd:complexType>
+                          
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="domicilio" type="familiar">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="nombre" type="xsd:string"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name"domicilio" type="habitual">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="nombre" type="xsd:string">
+<matricula> 
+<personal> 
+<dni>99223366M</dni> 
+<nombre>Juan Pardo Martín</nombre> 
+<titulacion>Ingeniería Informática</titulacion> 
+<curso_academico>1997/1998</curso_academico> 
+<domicilios> 
+<domicilio tipo="familiar"> 
+<nombre>C/ Principal nº1</nombre> 
+</domicilio> 
+<domicilio tipo="habitual"> 
+<nombre>C/ Secundaria nº2</nombre> 
+</domicilio> 
+</domicilios> 
+</personal> 
+<pago>
+<tipo_matricula>Matrícula Ordinaria</tipo_matricula>
+</pago>
+</matricula> 

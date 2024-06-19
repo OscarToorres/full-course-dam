@@ -1,0 +1,22 @@
+package ejercicio02;
+
+public class MainCajero {
+
+	public static void main(String[] args) {
+		Cajero cajero = new Cajero("Santander");
+		
+		Terminal terminal1 = new Terminal(cajero, "Terminal 1");
+		Terminal terminal2 = new Terminal(cajero, "Terminal 2");
+		Terminal terminal3 = new Terminal(cajero, "Terminal 3");
+					
+		System.out.println(cajero.toString());
+
+		terminal1.start();
+		terminal2.start();
+		terminal3.start();
+		
+		System.out.println(cajero.getLocalidades());
+		System.out.println("Fin del programa");
+		
+	}
+}

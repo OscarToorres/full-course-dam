@@ -1,0 +1,74 @@
+package recta;
+
+import java.util.Scanner;
+
+public class RectaApp {
+	
+	static class Punto {
+		
+		private int x;
+		private int y;
+		public Punto(int x, int y) {
+			super();
+			this.x = x;
+			this.y = y;
+		}
+		public int getX() {
+			return x;
+		}
+		public void setX(int x) {
+			this.x = x;
+		}
+		public int getY() {
+			return y;
+		}
+		public void setY(int y) {
+			this.y = y;
+		}
+		@Override
+		public String toString() {
+			return "Punto [ x=" + x + ", y=" + y + " ]";
+		}
+	}
+
+	public static void main(String[] args) {
+
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Punto A, abscisa x0 = ");
+		int a1 = scanner.nextInt();
+		
+		System.out.print("Punto A, ordenada y0 = ");
+		int b1 = scanner.nextInt();
+		
+		Punto A = new Punto(a1, b1);
+
+		
+		System.out.print("Punto B, abscisa x0 = ");
+		int a2 = scanner.nextInt();
+		
+		System.out.print("Punto B, ordenada y0 = ");
+		int b2 = scanner.nextInt();
+		
+		Punto B = new Punto(a2, b2);
+	
+		System.out.println(A.toString());
+		System.out.println(B.toString());
+		
+		System.out.println("Valor pendente da recta m = ");
+
+		//Completa o código seguinte para que obteña a pendente da recta
+		//int m = 
+		
+		System.out.println(m);
+		
+		System.out.println("Valor abscisa x = ");
+		
+		int x0 = scanner.nextInt();
+		//Completa a expresión seguinte para calcular o valor da ordenada de x0
+		//int y0 =  b2 + m *(x0-a2);
+		
+		Punto P = new Punto(x0, y0);
+		System.out.println(P.toString());
+	}
+}

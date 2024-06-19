@@ -1,0 +1,5 @@
+Este ficheiro e unha proba:
+a sua informacion non ten
+moito interes, pero certamente
+e un ficherio de TEXTO;
+fin do fichero.

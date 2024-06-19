@@ -1,0 +1,93 @@
+// TAREFA 3.6
+
+// A clase Transferencia toma dous obxectos Clienta
+// e retira da conta orixe a cantidade que se indique 
+// para ingresala na conta destino.
+// Se a clienta/e orixe non ten saldo suficiente, 
+// a operación non se realiza.
+
+// 1. Completa o código onde se indica e próbao
+// por medio da clase TransferenciaApp
+// para diferentes casos.
+
+// 2. Repite a proba anterior mais empregando
+// testes unitarios con JUnit
+
+
+// ------------------------------------
+
+public class Clienta {
+
+    private String dni;
+    private double saldo;
+
+    public Clienta(String dni, double saldo) {
+        this.dni = dni;
+        this.saldo = saldo;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    @Override
+    public String toString() {
+        return "Clienta{" +
+                "dni='" + dni + '\'' +
+                ", saldo= " + saldo +
+                '}';
+    }
+}
+
+// ------------------------------------
+
+public class Transferencia {
+
+    private final Clienta orixe;
+    private final Clienta destino;
+
+
+    public Transferencia(Clienta orixe, Clienta destino ) {
+        this.orixe = orixe;
+        this.destino = destino;
+
+    }
+
+    public boolean transferencia(double cantidade) {
+ 	// Completa este método para que se poda realizar a transferencia
+	// tendo en conta que debe haber fondos suficientes na conta do pagador
+
+        if () {
+          
+
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
+// ------------------------------------
+
+// Clase para realizar probas polo método "tradicional"
+public class TransferenciaApp {
+
+    public static void main(String[] args) {
+        Clienta orixe = new Clienta("1A", 100);
+        Clienta destino = new Clienta("2B", 200);
+        //Engade o código preciso para realizares unha proba
+
+
+    }
+}
+
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <nombre>Real Madrid FC</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>Thiabaut Courtois</nombre>
+                <nacionalidad>Bélgica</nacionalidad>
+            </jugador>
+            <jugador posicion="Delantero">
+                <nombre>Benzema</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador>Mouricio</entrenador>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Messi</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion="Medio Centro">
+                <nombre>Pike</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

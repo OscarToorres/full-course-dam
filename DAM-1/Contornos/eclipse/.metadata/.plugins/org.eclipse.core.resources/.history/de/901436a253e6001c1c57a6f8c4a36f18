@@ -1,0 +1,21 @@
+package examen;
+
+public class Persona {
+	
+	private String nome;
+	private String enderezo;
+	private String localidade;
+	private int cif;
+	
+	public Persona(String nome, String enderezo, String localidade, int cif) {
+		super();
+		this.nome = nome;
+		this.enderezo = enderezo;
+		this.localidade = localidade;
+		this.cif = cif;
+	}
+	
+	
+	
+
+}

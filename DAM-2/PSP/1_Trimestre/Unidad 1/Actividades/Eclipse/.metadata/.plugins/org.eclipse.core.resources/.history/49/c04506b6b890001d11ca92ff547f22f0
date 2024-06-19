@@ -1,0 +1,22 @@
+package ejercicio01;
+
+public class ContadorHilo extends Thread{
+
+	private Contador contador;
+	
+	public ContadorHilo(Contador contador, String nombre) {
+		super();
+		this.contador = contador;
+		this.setName(nombre);
+	}
+
+
+	public void run() {
+		for (int i = 0; i < 3; i++) {
+			contador.cuenta(contador.getContador());
+		}
+	}
+
+	
+
+}

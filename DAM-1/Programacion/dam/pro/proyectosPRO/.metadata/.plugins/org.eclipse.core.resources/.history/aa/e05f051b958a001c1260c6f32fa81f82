@@ -1,0 +1,26 @@
+package pruebas;
+
+public class Prueba {
+
+	public void amosa1_N(int n) {
+		
+		if(n > 1)
+			amosa1_N(n-1);
+		System.out.println(n);
+	}
+	
+	public static void main (String [] args) {
+		
+		Prueba prueba = new Prueba();
+		
+		int n = 7;
+		prueba.amosa1_N(n);
+		
+	}
+
+}
+
+	
+	
+	
+

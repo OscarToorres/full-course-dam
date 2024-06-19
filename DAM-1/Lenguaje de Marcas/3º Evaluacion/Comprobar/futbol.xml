@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="futbol1.xsl"?>
+<equipos_de_futbol  pais="España">
+   <equipo>
+      <nombre>Barcelona</nombre>
+      <ciudad>Barcelona</ciudad>
+      <entrenador>Xavi Hernández</entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre>Marc-André</nombre>
+            <nacionalidad>alemana</nacionalidad>
+         </jugador>
+         <jugador posicion="defensa">
+            <nombre>Gerard Piqué</nombre>
+            <nacionalidad>catalana</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+   <equipo>
+      <nombre>Levante</nombre>
+      <ciudad>Valencia</ciudad>
+      <entrenador></entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre>Javier Jiménez</nombre>
+            <nacionalidad>española</nacionalidad>
+         </jugador>
+         <jugador posicion="delantero">
+            <nombre>Nong</nombre>
+            <nacionalidad>camerunés</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+   <equipo>
+      <nombre>Real Sociedad</nombre>
+      <ciudad>San Sebastián</ciudad>
+      <entrenador></entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre>Claudio Bravo</nombre>
+            <nacionalidad>chilena</nacionalidad>
+         </jugador>
+         <jugador posicion="defensa">
+            <nombre>Mikel González</nombre>
+            <nacionalidad>española</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+  <equipo>
+      <nombre>Celta</nombre>
+      <ciudad>Vigo</ciudad>
+      <entrenador>Eduardo Coudet</entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre>Rubén Blanco</nombre>
+            <nacionalidad>española</nacionalidad>
+         </jugador>
+         <jugador posicion="delantero">
+            <nombre>Iago Aspas</nombre>
+            <nacionalidad>gallega</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+</equipos_de_futbol>

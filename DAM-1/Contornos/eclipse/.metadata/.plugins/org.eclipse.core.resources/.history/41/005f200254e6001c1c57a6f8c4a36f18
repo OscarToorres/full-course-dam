@@ -1,0 +1,11 @@
+package examen;
+
+public class Cliente extends Persona{
+
+	public Cliente(String nome, String enderezo, String localidade, int cif) {
+		super(nome, enderezo, localidade, cif);
+	}
+	
+	private double limite_credito;
+
+}

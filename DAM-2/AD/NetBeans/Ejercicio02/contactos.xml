@@ -1,0 +1,54 @@
+<listaContacto>
+  <contactos>
+    <contacto>
+      <dni>11111111A</dni>
+      <nombre>Borja</nombre>
+      <apellidos>Silva Martinez</apellidos>
+      <enderezo>
+        <localidad>localidad01</localidad>
+        <calle>calle01</calle>
+        <numero>1</numero>
+      </enderezo>
+    </contacto>
+    <contacto>
+      <dni>22222222B</dni>
+      <nombre>Ivan</nombre>
+      <apellidos>Fernandez Trinhans</apellidos>
+      <enderezo>
+        <localidad>localidad02</localidad>
+        <calle>calle02</calle>
+        <numero>2</numero>
+      </enderezo>
+    </contacto>
+    <contacto>
+      <dni>33333333C</dni>
+      <nombre>Alvaro</nombre>
+      <apellidos>Outeiral Pinherio</apellidos>
+      <enderezo>
+        <localidad>localidad03</localidad>
+        <calle>calle03</calle>
+        <numero>3</numero>
+      </enderezo>
+    </contacto>
+    <contacto>
+      <dni>44444444D</dni>
+      <nombre>Hugo</nombre>
+      <apellidos>Silva Rodriguez</apellidos>
+      <enderezo>
+        <localidad>localidad04</localidad>
+        <calle>calle04</calle>
+        <numero>4</numero>
+      </enderezo>
+    </contacto>
+    <contacto>
+      <dni>55555555E</dni>
+      <nombre>Luis</nombre>
+      <apellidos>Lustres Ilustrado</apellidos>
+      <enderezo>
+        <localidad>localidad05</localidad>
+        <calle>calle05</calle>
+        <numero>5</numero>
+      </enderezo>
+    </contacto>
+  </contactos>
+</listaContacto>

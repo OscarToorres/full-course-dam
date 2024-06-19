@@ -1,0 +1,22 @@
+package ejercicio05;
+
+import java.util.Random;
+
+public class CHilo implements Runnable {
+
+	private String caracter;
+
+	public CHilo(String caracter) {
+		super();
+		this.caracter = caracter;
+	}
+
+	@Override
+	public void run() {
+try {
+	Thread.sleep((long)(Math.abs(new Random().nextInt()) % 1000));
+	System.out.println(caracter);
+}catch (InterruptedException ex){}
+	}
+
+}

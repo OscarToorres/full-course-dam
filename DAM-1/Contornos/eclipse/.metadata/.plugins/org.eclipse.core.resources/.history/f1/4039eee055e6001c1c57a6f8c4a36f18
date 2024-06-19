@@ -1,0 +1,24 @@
+package examen;
+
+import java.util.Date;
+
+public class Factura {
+
+	private double importe;
+	private Date data_emisor;
+	private Date data_pagamento;
+	private int cif_emisor;
+	private int cid_cliente;
+	
+	public Factura(double importe, Date data_emisor, Date data_pagamento, int cif_emisor, int cid_cliente) {
+		super();
+		this.importe = importe;
+		this.data_emisor = data_emisor;
+		this.data_pagamento = data_pagamento;
+		this.cif_emisor = cif_emisor;
+		this.cid_cliente = cid_cliente;
+	}
+	
+	
+	
+}

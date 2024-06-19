@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+E:\DAM 2\PSP\1º Trismestre\Unidad 1\Actividades\Eclipse - Copy\.metadata\.plugins\org.eclipse.jdt.core
+2830174985.index
+3638296454.index
+296782954.index
+1186949669.index
+834165427.index
+2950483728.index
+2165281275.index

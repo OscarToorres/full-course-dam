@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="3 c.xsl"?>
+<ies nombre="IES Leliadoura" web="http://www.iesleliadoura.org/">
+    <ciclos>
+        <ciclo id="ASIR">
+            <nombre>Administración de Sistemas Informáticos en Red</nombre>
+            <grado>Superior</grado>
+            <año>2009</año>
+        </ciclo>
+        <ciclo id="DAW">
+            <nombre>Desarrollo de Aplicaciones Web</nombre>
+            <grado>Superior</grado>
+            <año>2010</año>
+        </ciclo>
+        <ciclo id="SMR">
+            <nombre>Sistemas Microinformáticos y Redes</nombre>
+            <grado>Medio</grado>
+            <año>2008</año>
+        </ciclo>
+    </ciclos>
+</ies>

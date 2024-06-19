@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 1 apartado a)-->
+<!DOCTYPE perifericos [
+    <!ELEMENT perifericos (#PCDATA)>
+]>
+<perifericos>impresora monitor teclado</perifericos>
+
+<!--Ejercicio 1 apartado b)-->
+<DOCTYPE perro [
+    <!ELEMENT perro (edad, nombre)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<perro>
+    <edad>8</edad>
+    <nombre>Pancho</nombre>
+</perro>
+
+<!--Ejercicio 1 apartado c)-->
+<DOCTYPE caballo[
+    <!ELEMENT caballo (nombre, raza, edad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT raza (#PCDATA)>
+    <!ELEMENT edad EMPTY>
+]>
+<caballo>
+    <nombre>Silvestre</nombre>
+    <raza>Morgan</raza>
+    <edad></edad>
+</caballo>
+
+<!--Ejercicio 1 apartado e)-->
+<DOCTYPE mesa [
+    <!ELEMENT mesa ANY>
+    <!ELEMENT material (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+]>
+<mesa>La mesa de<material>madera</material> es de color<color>marrón><color>.</mesa>
+
+<!--Ejercicio 1 apartado e)-->
+<!DOCTYPE partes [
+    <!ELEMENT partes (secciones)>
+    <!ELEMENT secciones ANY>
+    <!ELEMENT letras (#PCDATA)>
+]>
+<partes>
+    <secciones>
+        <letras>abc</letras>
+        MNT 
+        <letras>xyz</letras>
+    </secciones>
+</partes>
+
+<!--Ejercicio 1 apartado f)-->
+<!DOCTYPE viajes [
+    <!ELEMENT viajes (austria, italia, francia)>
+    <!ELEMENT austria (ciudad+)>
+    <!ELEMENT italia (ciudad+)>
+    <!ELEMENT francia (ciudad+)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<viajes>
+    <austria>
+        <ciudad>Viena</ciudad>
+    </austria>
+    <italia>
+        <ciudad>florencia</ciudad>
+        <ciudad>Roma</ciudad>
+        <ciudad>Venecia</ciudad>
+    </italia>
+    <francia>
+        <ciudad></ciudad>
+    </francia>
+</viajes>
+
+<!--Ejercicio 1 apartado g)-->
+<!DOCTYPE ropa [
+    <!ELEMENT ropa (nombre, color*)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+]>
+<ropa>
+    <nombre>guante</nombre> 
+    <color>rojo</color>
+    <color>blanco</color>
+</ropa>
+<ropa>
+    <nombre>bufanda</nombre> 
+    <color>verde</color>
+    <color>azul</color>
+</ropa>
+
+<!--Ejercicio 1 apartado h)-->
+<!DOCTYPE paises [
+    <!ELEMENT paises (pais, ciudad?)*>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<paises>
+    <pais>Italia</pais>
+    <ciudad>florencia</ciudad>
+    <pais>Portugal</pais>
+    <ciudad>Lisboa</ciudad>
+    <pais>Francia</pais>
+</paises>
+
+<!--Ejercicio 1 apartado i)-->
+<!DOCTYPE bebudas [
+    <!ELEMENT bebidas (bebida)*>
+    <!ELEMENT bebida ((codigo | nombre), precio)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+<bebidas>
+    <bebida>
+        <codigo>L45</codigo>
+        <precio>8</precio>
+    </bebida>
+    <bebida>
+        <nombre>leche</nombre>
+        <precio>6</precio>
+    </bebida>
+</bebidas>

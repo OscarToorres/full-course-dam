@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2 d.xsl"?>
+<ciclos>
+    <ciclo id="ASIR">
+        <nombre>Administración de Sistemas Informáticos en Red</nombre>
+    </ciclo>
+    <ciclo id="DAW">
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+    </ciclo>
+    <ciclo id="SMR">
+      <nombre>Sistemas Microinformáticos y Redes</nombre>
+    </ciclo>
+</ciclos>

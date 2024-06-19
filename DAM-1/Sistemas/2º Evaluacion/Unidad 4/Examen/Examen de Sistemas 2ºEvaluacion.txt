@@ -1,0 +1,152 @@
+
+Ir ao contido principal
+AV
+O sistema anfitrión ou HOST é ... Seleccione unha:
+
+a.O hardware físico
+b.O SO dá Maquina Virtual
+c.Ningunha das outras é correcta
+d.O SO que corre sobre o hardware físico
+
+
+Qué é o extension pack? Seleccione unha:
+
+a.Funcións do software que permite transmisión de ficheiros
+b.Paquetes de software que melloran o rendemento a nivel hipervisor
+c.Ningunha é correcta
+d.Paquetes de software que melloran o rendemento dunha máquina virtual
+
+Cál é a extensión dun ficheiro de configuración de Virtual Box? Seleccione unha:
+
+a.dvbox
+b.vdbox
+c.vbox
+d.vdi
+
+Relaciona cada comando coa súa función: (Só puntúa se tódalas respostas con correctas)
+
+NET HELP	
+Proporciona a lista de comandos de rede
+NET FILE	
+Amosa os arquivos compartidos abertos nun servidor
+NET ACCOUNTS	
+Agrega ou modifica contas de usuario
+NET START	
+Inicia un servicio
+NET USER	
+Modifica requisitos de contrasinal de usuarios
+NET SHARE	
+Comparte un fichero en rede
+NET USE	
+Usa os privilexios do usuario que se lle indique
+NET LOCALGROUP
+Agrega, mostra ou modifica grupos locales
+
+Cál é o formato xenuino dos disco duros virtualizados no VirtualBox? Seleccione unha:
+
+a.VID
+b.HDD
+c.VHD
+d.
+
+Cal é por defecto a combinación para poñer a pantalla completa en Virtual Box?
+Resposta:
+
+control derecho + f
+
+Queremos montar unha rede virtual para facer probas de seguridade contra o noso equipo físico. 
+Interesame que a rede sexa o máis estanca posible. Que configuración de rede usarias no Virtual Box? 
+Xustifica a túa resposta.
+
+Usaria una red  con ACS para poder limitar los accesos a los usuarios.
+
+Que significa executar con elevación? Por que é recomendable que un SO obrigue a traballar con elevación?
+Significa ejecutar como administrador. Sirve para controlar los accesos a los demas usuarios que no tengan 
+privilegios de administrador, de esta manera se prevee que cualquiera pueda modificar archivos importantes del equipo.
+
+
+Cál das seguintes non é unha vantaxe da Virtualización? Seleccione unha:
+
+a.Reducción dos tiempos de parada.
+b.Aforro de costes da infraestructura IT
+c.Balanceo dinámico de recursos coma memoria e procesador.
+d.Máis rapidez cunha infraestructura non virtualizada.
+
+Explica que é un hipervisor nativo
+
+Un hipervisor nativo es un tipo de virtualizacion. Nativo quiere decir que vamos a trabajar con los propios recursos 
+de la maquina fisica que tenemos, destinando unos recursos de esta ala virtualizada.
+
+Para permitir compartir o portapapeis entre a máquina host e o guest teño que instalar:
+Resposta:
+
+
+Explica as diferencias entre as opcións NAT e Rede NAT en Virtual Box.
+NAT es para que la maquina virtual use las mismas configuraciones que la targeta de red del equipo para que tenga acceso 
+al exterior. La Red NAT sirve para poder interconectar varias maquinas virtuales con los recursos tambien de la targeta de 
+red de nuestro equipo.
+
+
+E o mesmo unha OVA que unha ISO? Xustifica a tua resposta.
+
+No. Una ISO especifica el tipo de sistema operativo que queremos instalar, cogiendo un archivo externo y metiendolo en 
+la propia maquina. Una OVA es un archivo que proporciona directamente la maquina para poder virtualizar.
+
+
+Pódese usar un pendrive no máquina host e na hóspede á vez? Seleccione unha:
+
+a.Sí, pero só tras instalar as Guest Additions
+b.Non, porque non se pode usar concurrentemente ese recurso en dous sistemas
+c.Sí, grazas ó Extension Pack
+d.Sí, pero non pode estar aberto un arquivo en ambos sistemas
+
+Si estamos no cartafol C:\Windows\Fonts indica que comando usarías para moverte ao cartafol C:\Windows\System32\drivers 
+mediante ruta relativa
+
+cd.. \System32\drivers
+
+Nun disco duro pode haber ó mesmo tempo: Seleccione unha:
+
+a.Ten que haber unha de cada tipo
+b.Só particións primarias
+c.Só particións lóxicas
+d.Só particións extendidas
+
+
+Os programas que se executan sobre o host... Seleccione unha:
+
+a.Utilizan o hardware real
+b.Ningunha é correcta
+c.Ofrecen un menor rendemento
+d.Utilizan o hardware emulado
+
+Cal é a principal diferenza entre unha instalación de Server Core e unha Standard?
+
+
+Como se chama a característica de Virtual Box que serve para gardar o estado actual dunha máquina, 
+permitindo voltar atrás no tempo?
+Resposta:
+
+O comando runas úsase para: Seleccione unha:
+
+a.Executar un programa como outro usuario que o que abriu a sesión.
+b.Executar un programa como administrador.
+c.Executar un programa como convidado.
+d.Executar un programa como o mesmo usuario que abriu a sesión.
+
+Cantas particións extendidas pode haber nun disco MBR?
+Seleccione unha:
+a.4
+b.1
+c.16
+d.Ningunha das outras é correcta
+
+Indica a frase correcta: Seleccione unha:
+
+a.Un usuario estándar ten máis privilexios que un administrador e que o usuario invitado.
+b.O usuario Convidado ten máis privilexios que un estándar e un administrador
+c.Un administrador ten máis privilexios que un usuario estándar e o usuario invitado.
+d.O usuario invitado, o administrador e un usuario estándar teñen os mesmos privilexios.
+
+Escribe o comando co cal renóvase o IP dun cartón de rede configurado con DHCP
+Resposta:
